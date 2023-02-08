@@ -19,3 +19,19 @@ The base config is designed for projects that do **not** utilize a JavaScript fr
   extends: '@zaengle/eslint-config-base'
 }
 ```
+
+## Vue Config
+
+The Vue config is designed for projects that use Vue 3.
+
+[View the Vue config rules](packages/eslint-config-vue/lib/.eslintrc.js).
+
+### Usage
+
+```js
+// In .eslintrc.js
+
+{
+  extends: '@zaengle/eslint-config-vue'
+}
+```
