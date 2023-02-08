@@ -1,0 +1,32 @@
+{
+  "name": "@zaengle/eslint-config-base",
+  "version": "1.0.0",
+  "description": "Base ESLint config for projects that don't use a JavaScript framework",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Zaengle",
+  "homepage": "https://github.com/zaengle/eslint-config",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zaengle/eslint-config"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": "^8.33.0"
+  },
+  "dependencies": {
+    "@babel/eslint-parser": "^7.19.1"
+  }
+}
