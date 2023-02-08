@@ -4,6 +4,17 @@ This is our base ESLint config for projects that do **not** use a JavaScript fra
 
 ## Usage
 
+### Install Dependencies
+
+```bash
+$ yarn add -D @zaengle/eslint-config-base
+
+# If not already installed
+$ yarn add -D eslint
+```
+
+### Add ESLint Config
+
 ```js
 // In .eslintrc.js
 

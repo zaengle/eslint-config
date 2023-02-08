@@ -12,6 +12,17 @@ The base config is designed for projects that do **not** utilize a JavaScript fr
 
 ### Usage
 
+#### Install Dependencies
+
+```bash
+$ yarn add -D @zaengle/eslint-config-base
+
+# If not already installed
+$ yarn add -D eslint
+```
+
+#### Add ESLint Config
+
 ```js
 // In .eslintrc.js
 
@@ -28,10 +39,48 @@ The Vue config is designed for projects that use Vue 3.
 
 ### Usage
 
+#### Install Dependencies
+
+```bash
+$ yarn add -D @zaengle/eslint-config-vue
+
+# If not already installed
+$ yarn add -D eslint eslint-plugin-vue
+```
+
+#### Add ESLint Config
+
 ```js
 // In .eslintrc.js
 
 {
   extends: '@zaengle/eslint-config-vue'
+}
+```
+
+## React Config
+
+The React config is designed to detect the version of React that's being used.
+
+[View the React config rules](packages/eslint-config-react/lib/.eslintrc.js).
+
+### Usage
+
+#### Install Dependencies
+
+```bash
+$ yarn add -D @zaengle/eslint-config-react
+
+# If not already installed
+$ yarn add -D eslint eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-react-hooks
+```
+
+#### Add ESLint Config
+
+```js
+// In .eslintrc.js
+
+{
+  extends: '@zaengle/eslint-config-react'
 }
 ```
