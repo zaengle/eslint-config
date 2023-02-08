@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "eslint-config",
   "private": true,
   "workspaces": [
     "packages/*"
