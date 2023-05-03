@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-vue-ts",
+  "name": "@zaengle/eslint-config-vue-ts",
   "version": "1.0.0",
   "description": "ESLint config for projects using Vue 3 and TypeScript",
   "keywords": [
