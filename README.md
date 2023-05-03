@@ -58,6 +58,33 @@ $ yarn add -D eslint eslint-plugin-vue
 }
 ```
 
+## Vue + TypeScript Config
+
+The Vue + TypeScript config is designed for projects that use Vue 3 and TypeScript.
+
+[View the Vue + TypeScript config rules](packages/eslint-config-vue-ts/lib/.eslintrc.js).
+
+## Usage
+
+### Install Dependencies
+
+```bash
+$ yarn add -D @zaengle/eslint-config-vue-ts
+
+# If not already installed
+$ yarn add -D eslint eslint-plugin-vue
+```
+
+### Add ESLint Config
+
+```js
+// In .eslintrc.js
+
+{
+  extends: '@zaengle/eslint-config-vue-ts'
+}
+```
+
 ## React Config
 
 The React config is designed to detect the version of React that's being used.
