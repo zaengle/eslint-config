@@ -1,0 +1,38 @@
+{
+  "name": "eslint-config-react-ts",
+  "version": "1.0.0",
+  "description": "ESLint config for projects using React and TypeScript",
+  "keywords": [
+    "react",
+    "eslint",
+    "eslintconfig",
+    "typescript"
+  ],
+  "author": "Zaengle",
+  "homepage": "https://github.com/zaengle/eslint-config",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zaengle/eslint-config"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": "^8.52.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.22.15",
+    "@typescript-eslint/eslint-plugin": "^6.9.0"
+  }
+}
