@@ -111,3 +111,30 @@ $ yarn add -D eslint eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-re
   extends: '@zaengle/eslint-config-react'
 }
 ```
+
+## React + TypeScript Config
+
+The React + TypeScript config is designed for projects that use React and TypeScript.
+
+[View the React + TypeScript config rules](packages/eslint-config-react-ts/lib/.eslintrc.js).
+
+## Usage
+
+### Install Dependencies
+
+```bash
+$ yarn add -D @zaengle/eslint-config-react-ts
+
+# If not already installed
+$ yarn add -D eslint eslint-plugin-react @typescript-eslint/eslint-plugin eslint-plugin-jsx-a11y eslint-plugin-react-hooks
+```
+
+### Add ESLint Config
+
+```js
+// In .eslintrc.js
+
+{
+  extends: '@zaengle/eslint-config-react-ts'
+}
+```
