@@ -1,6 +1,6 @@
 {
   "name": "@zaengle/eslint-config-react-ts",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "ESLint config for projects using React and TypeScript",
   "keywords": [
     "react",

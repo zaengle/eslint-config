@@ -1,6 +1,6 @@
 {
   "name": "@zaengle/eslint-config-vue",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "ESLint config for projects using Vue 3",
   "keywords": [
     "vue",
