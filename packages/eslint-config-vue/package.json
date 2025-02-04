@@ -1,6 +1,6 @@
 {
   "name": "@zaengle/eslint-config-vue",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "ESLint config for projects using Vue 3",
   "keywords": [
     "vue",
@@ -25,10 +25,10 @@
     "access": "public"
   },
   "peerDependencies": {
-    "eslint": "^8.33.0",
-    "eslint-plugin-vue": "^9.9.0"
+    "eslint": "^9.19.0",
+    "eslint-plugin-vue": "^9.32.0"
   },
   "dependencies": {
-    "@babel/eslint-parser": "^7.19.1"
+    "@babel/eslint-parser": "^7.26.5"
   }
 }
