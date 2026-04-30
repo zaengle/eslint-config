@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/zaengle/eslint-config"
+    "url": "git+https://github.com/zaengle/eslint-config.git"
   },
   "publishConfig": {
     "access": "public"
