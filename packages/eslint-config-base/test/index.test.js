@@ -35,25 +35,25 @@ test('invalid/bad-indent.js triggers indent', async () => {
 
 test('invalid/bad-quotes.js triggers quotes', async () => {
   const messages = await lint('invalid/bad-quotes.js')
-  assert.ok(ruleIds(messages).includes('quotes'))
+  assert.ok(ruleIds(messages).includes('quotes'), `got: ${ruleIds(messages).join(', ')}`)
 })
 
 test('invalid/extra-semi.js triggers semi', async () => {
   const messages = await lint('invalid/extra-semi.js')
-  assert.ok(ruleIds(messages).includes('semi'))
+  assert.ok(ruleIds(messages).includes('semi'), `got: ${ruleIds(messages).join(', ')}`)
 })
 
 test('invalid/bad-fn-paren.js triggers space-before-function-paren', async () => {
   const messages = await lint('invalid/bad-fn-paren.js')
-  assert.ok(ruleIds(messages).includes('space-before-function-paren'))
+  assert.ok(ruleIds(messages).includes('space-before-function-paren'), `got: ${ruleIds(messages).join(', ')}`)
 })
 
 test('invalid/unused-var.js triggers no-unused-vars', async () => {
   const messages = await lint('invalid/unused-var.js')
-  assert.ok(ruleIds(messages).includes('no-unused-vars'))
+  assert.ok(ruleIds(messages).includes('no-unused-vars'), `got: ${ruleIds(messages).join(', ')}`)
 })
 
 test('invalid/undef-var.js triggers no-undef', async () => {
   const messages = await lint('invalid/undef-var.js')
-  assert.ok(ruleIds(messages).includes('no-undef'))
+  assert.ok(ruleIds(messages).includes('no-undef'), `got: ${ruleIds(messages).join(', ')}`)
 })
