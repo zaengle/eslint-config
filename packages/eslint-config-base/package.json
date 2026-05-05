@@ -21,7 +21,7 @@
     "url": "git+https://github.com/zaengle/eslint-config.git"
   },
   "scripts": {
-    "test": "node --test test/index.test.js"
+    "test": "node --test test/**/*.test.js"
   },
   "publishConfig": {
     "access": "public"
