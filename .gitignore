@@ -2,3 +2,5 @@ node_modules/
 .npmrc
 .idea/
 .vscode/
+plans/
+CLAUDE.md
