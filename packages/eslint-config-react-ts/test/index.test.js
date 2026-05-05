@@ -48,10 +48,9 @@ test('invalid/explicit-any.tsx triggers @typescript-eslint/no-explicit-any', asy
 
 test('invalid/unused-var.tsx triggers @typescript-eslint/no-unused-vars', async () => {
   const messages = await lint('invalid/unused-var.tsx')
-  const ids = ruleIds(messages)
   assert.ok(
-    ids.includes('@typescript-eslint/no-unused-vars') || ids.includes('no-unused-vars'),
-    `got: ${ids.join(', ')}`,
+    ruleIds(messages).includes('@typescript-eslint/no-unused-vars'),
+    `got: ${ruleIds(messages).join(', ')}`,
   )
 })
 
