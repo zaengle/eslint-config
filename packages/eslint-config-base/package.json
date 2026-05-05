@@ -1,6 +1,6 @@
 {
   "name": "@zaengle/eslint-config-base",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Base ESLint config for projects that don't use a JavaScript framework",
   "keywords": [
     "eslint",

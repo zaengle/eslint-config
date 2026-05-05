@@ -1,6 +1,6 @@
 {
   "name": "@zaengle/eslint-config-vue-ts",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "ESLint config for projects using Vue 3 and TypeScript",
   "keywords": [
     "vue",
@@ -33,10 +33,10 @@
   },
   "dependencies": {
     "@eslint/js": "^10.0.0",
-    "globals": "^15.0.0",
-    "eslint-plugin-vue": "^10.9.0",
-    "vue-eslint-parser": "^10.0.0",
     "@typescript-eslint/eslint-plugin": "^8.59.1",
-    "@typescript-eslint/parser": "^8.59.1"
+    "@typescript-eslint/parser": "^8.59.1",
+    "eslint-plugin-vue": "^10.9.0",
+    "globals": "^15.0.0",
+    "vue-eslint-parser": "^10.0.0"
   }
 }
