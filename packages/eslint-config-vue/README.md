@@ -7,10 +7,10 @@ This is our ESLint config for projects that use Vue 3.
 ### Install Dependencies
 
 ```bash
-$ yarn add -D @zaengle/eslint-config-vue
+$ npm install -D @zaengle/eslint-config-vue
 
 # If not already installed
-$ yarn add -D eslint eslint-plugin-vue
+$ npm install -D eslint eslint-plugin-vue
 ```
 
 ### Add ESLint Config

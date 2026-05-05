@@ -7,10 +7,10 @@ This is our base ESLint config for projects that do **not** use a JavaScript fra
 ### Install Dependencies
 
 ```bash
-$ yarn add -D @zaengle/eslint-config-base
+$ npm install -D @zaengle/eslint-config-base
 
 # If not already installed
-$ yarn add -D eslint
+$ npm install -D eslint
 ```
 
 ### Add ESLint Config

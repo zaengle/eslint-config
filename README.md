@@ -15,10 +15,10 @@ The base config is designed for projects that do **not** utilize a JavaScript fr
 #### Install Dependencies
 
 ```bash
-$ yarn add -D @zaengle/eslint-config-base
+$ npm install -D @zaengle/eslint-config-base
 
 # If not already installed
-$ yarn add -D eslint
+$ npm install -D eslint
 ```
 
 #### Add ESLint Config
@@ -42,10 +42,10 @@ The Vue config is designed for projects that use Vue 3.
 #### Install Dependencies
 
 ```bash
-$ yarn add -D @zaengle/eslint-config-vue
+$ npm install -D @zaengle/eslint-config-vue
 
 # If not already installed
-$ yarn add -D eslint eslint-plugin-vue
+$ npm install -D eslint eslint-plugin-vue
 ```
 
 #### Add ESLint Config
@@ -69,10 +69,10 @@ The Vue + TypeScript config is designed for projects that use Vue 3 and TypeScri
 ### Install Dependencies
 
 ```bash
-$ yarn add -D @zaengle/eslint-config-vue-ts
+$ npm install -D @zaengle/eslint-config-vue-ts
 
 # If not already installed
-$ yarn add -D eslint eslint-plugin-vue
+$ npm install -D eslint eslint-plugin-vue
 ```
 
 ### Add ESLint Config
@@ -96,10 +96,10 @@ The React config is designed to detect the version of React that's being used.
 #### Install Dependencies
 
 ```bash
-$ yarn add -D @zaengle/eslint-config-react
+$ npm install -D @zaengle/eslint-config-react
 
 # If not already installed
-$ yarn add -D eslint eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-react-hooks
+$ npm install -D eslint eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-react-hooks
 ```
 
 #### Add ESLint Config
@@ -123,10 +123,10 @@ The React + TypeScript config is designed for projects that use React and TypeSc
 ### Install Dependencies
 
 ```bash
-$ yarn add -D @zaengle/eslint-config-react-ts
+$ npm install -D @zaengle/eslint-config-react-ts
 
 # If not already installed
-$ yarn add -D eslint eslint-plugin-react @typescript-eslint/eslint-plugin eslint-plugin-jsx-a11y eslint-plugin-react-hooks
+$ npm install -D eslint eslint-plugin-react @typescript-eslint/eslint-plugin eslint-plugin-jsx-a11y eslint-plugin-react-hooks
 ```
 
 ### Add ESLint Config
@@ -150,7 +150,7 @@ ESLint 10 requires Node.js `^20.19.0 || ^22.13.0 || >=24`.
 ### 2. Update the package
 
 ```bash
-yarn add -D @zaengle/eslint-config-[base|vue|vue-ts|react|react-ts] eslint@^10
+npm install -D @zaengle/eslint-config-[base|vue|vue-ts|react|react-ts] eslint@^10
 ```
 
 Plugin packages (`eslint-plugin-vue`, `eslint-plugin-react`, etc.) are now bundled — remove them from your own `devDependencies`.

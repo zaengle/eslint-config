@@ -7,10 +7,10 @@ This is our ESLint config for projects that use React and TypeScript. Built on [
 ### Install Dependencies
 
 ```bash
-$ yarn add -D @zaengle/eslint-config-react-ts
+$ npm install -D @zaengle/eslint-config-react-ts
 
 # If not already installed
-$ yarn add -D eslint @eslint-react/eslint-plugin @typescript-eslint/eslint-plugin typescript-eslint eslint-plugin-jsx-a11y eslint-plugin-react-hooks
+$ npm install -D eslint @eslint-react/eslint-plugin @typescript-eslint/eslint-plugin typescript-eslint eslint-plugin-jsx-a11y eslint-plugin-react-hooks
 ```
 
 ### Add ESLint Config
