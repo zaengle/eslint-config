@@ -1,22 +1,27 @@
-const js = require('@eslint/js')
-const globals = require('globals')
-const pluginReact = require('eslint-plugin-react')
-const pluginJsxA11y = require('eslint-plugin-jsx-a11y')
-const pluginReactHooks = require('eslint-plugin-react-hooks')
-const tsPlugin = require('@typescript-eslint/eslint-plugin')
+import js from '@eslint/js'
+import globals from 'globals'
+import eslintReact from '@eslint-react/eslint-plugin'
+import pluginJsxA11y from 'eslint-plugin-jsx-a11y'
+import pluginReactHooks from 'eslint-plugin-react-hooks'
+import tseslint from 'typescript-eslint'
 
-module.exports = [
+export default [
   js.configs.recommended,
-  pluginReact.configs.flat.recommended,
-  pluginReact.configs.flat['jsx-runtime'],
+  ...tseslint.configs.recommended,
+  {
+    files: ['**/*.{ts,tsx,mts,cts}'],
+    ...eslintReact.configs['recommended-typescript'],
+  },
+  {
+    files: ['**/*.{js,jsx,mjs,cjs}'],
+    ...eslintReact.configs.recommended,
+  },
   pluginJsxA11y.flatConfigs.recommended,
-  pluginReactHooks.configs['recommended-latest'] ?? {
+  pluginReactHooks.configs.flat['recommended-latest'] ?? pluginReactHooks.configs.flat.recommended ?? {
     plugins: { 'react-hooks': pluginReactHooks },
     rules: pluginReactHooks.configs.recommended.rules,
   },
-  ...tsPlugin.configs['flat/recommended'],
   {
-    settings: { react: { version: 'detect' } },
     languageOptions: {
       globals: {
         ...globals.browser,
@@ -26,6 +31,7 @@ module.exports = [
       parserOptions: {
         ecmaVersion: 'latest',
         sourceType: 'module',
+        ecmaFeatures: { jsx: true },
       },
     },
     rules: {
