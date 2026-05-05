@@ -65,3 +65,4 @@ test('invalid/bad-indent.js triggers indent', async () => {
     `got: ${ruleIds(messages).join(', ')}`,
   )
 })
+

@@ -65,3 +65,4 @@ test('invalid/explicit-any.ts triggers @typescript-eslint/no-explicit-any', asyn
     `got: ${ruleIds(messages).join(', ')}`,
   )
 })
+
