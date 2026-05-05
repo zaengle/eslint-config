@@ -4,7 +4,7 @@ const pluginVue = require('eslint-plugin-vue')
 
 module.exports = [
   js.configs.recommended,
-  ...pluginVue.configs['flat/vue3-recommended'],
+  ...pluginVue.configs['flat/recommended'],
   {
     languageOptions: {
       globals: {

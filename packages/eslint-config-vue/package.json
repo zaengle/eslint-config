@@ -10,6 +10,9 @@
   "author": "Zaengle",
   "homepage": "https://github.com/zaengle/eslint-config",
   "license": "MIT",
+  "scripts": {
+    "test": "node --test test/**/*.test.js"
+  },
   "main": "lib/index.js",
   "directories": {
     "lib": "lib"
