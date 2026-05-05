@@ -175,3 +175,22 @@ module.exports = [
 ```
 
 ### 4. Delete `.eslintrc.js`
+
+## Testing
+
+Each config package has its own test suite. Tests use Node's built-in
+`node:test` runner and ESLint's Node API to lint fixture files and assert
+that expected rules fire (and clean fixtures produce no errors).
+
+Run all suites:
+
+```bash
+npm install --legacy-peer-deps
+npm test
+```
+
+Run a single package's suite:
+
+```bash
+npm test --workspace=@zaengle/eslint-config-react
+```

@@ -7,7 +7,7 @@ const tsParser = require('@typescript-eslint/parser')
 module.exports = [
   js.configs.recommended,
   ...tsPlugin.configs['flat/recommended'],
-  ...pluginVue.configs['flat/vue3-recommended'],
+  ...pluginVue.configs['flat/recommended'],
   {
     files: ['**/*.vue'],
     languageOptions: {
