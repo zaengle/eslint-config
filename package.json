@@ -12,7 +12,7 @@
     "lerna": "^9.0.7"
   },
   "overrides": {
-    "axios": "^1.16.0",
+    "axios": "^1.19.0",
     "follow-redirects": "^1.16.0",
     "yaml": "^2.8.4",
     "nx": {
